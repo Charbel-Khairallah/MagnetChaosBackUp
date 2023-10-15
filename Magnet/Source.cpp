@@ -29,6 +29,5 @@ int main() {
         }
     }
 
-    std::cout << "Exit" << std::endl;
 	return 0;
 }
