@@ -1,5 +1,6 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
+#include <Windows.h>
 #include "MainFrame.h"
 #include "ControlsFrame.h"
 #include "TutorialFrame.h"
@@ -7,7 +8,7 @@
 
 int main() {
 
-
+    ::ShowWindow(::GetConsoleWindow(), SW_HIDE);
     Frame::InitializeFrame();
     Frame * WindowFrame = new MainFrame();
     while (GameWindow->isOpen())
