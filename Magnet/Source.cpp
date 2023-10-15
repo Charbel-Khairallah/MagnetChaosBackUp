@@ -8,7 +8,7 @@
 
 int main() {
 
-    std::cout << "Test" << std::endl;
+    std::cout << "Test 3" << std::endl;
 
     ::ShowWindow(::GetConsoleWindow(), SW_HIDE);
     Frame::InitializeFrame();
