@@ -8,6 +8,8 @@
 
 int main() {
 
+    std::cout << "Test" << std::endl;
+
     ::ShowWindow(::GetConsoleWindow(), SW_HIDE);
     Frame::InitializeFrame();
     Frame * WindowFrame = new MainFrame();
