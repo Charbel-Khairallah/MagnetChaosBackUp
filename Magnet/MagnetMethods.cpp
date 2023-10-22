@@ -241,7 +241,7 @@ void Magnet::UpgradePower() {
 
 void Magnet::UpgradeShiftSpeed() {
 	this->AvailableUpgrades--;
-	this->ShiftBar->SetRate(this->ShiftBar->GetRate() * 2);
+	this->ShiftBar->SetRate(this->ShiftBar->GetRate() * 3);
 }
 
 //------------------------------- Upgrade Stunn Duration -----------------------------//
@@ -330,4 +330,10 @@ void Magnet::ResetHidingTimer() {
 
 double Magnet::GetRadius() {
 	return this->MagnetShape.getRadius();
+}
+
+//------------------------------------- Get Power -----------------------------------//
+
+double Magnet::GetPower() {
+	return this->Amplifier;
 }
