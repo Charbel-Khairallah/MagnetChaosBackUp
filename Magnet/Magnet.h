@@ -81,5 +81,6 @@ public:
 	double GetAbsoluteFieldStrength();
 	double GetMaxFieldStrengthWithoutAmplifier();
 	double GetRadius();
+	double GetPower();
 	Circle GetBoundaries();
 };
