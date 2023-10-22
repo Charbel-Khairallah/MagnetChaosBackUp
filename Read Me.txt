@@ -1,0 +1,12 @@
+*** Visual Studio ***
+
+- Run In Release Mode x86
+
+
+
+*** Installer ***
+
+- Make Sure That You Install The Game Somewhere That Does Not Require Admin Privileges
+  In Order To Write Text Files In That Directory.
+  Otherwise Your Controls Settings Won't Be Saved If You Don't Run The Game In Administrator Mode.
+- Don't Move The Game .exe File After Installing It, Instead Create A Shortcut For It Anywhere.
