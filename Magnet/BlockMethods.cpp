@@ -63,6 +63,7 @@ Block::Block(BlockType Type, Point Position, Angle Rotation, Magnet * Player) {
 	this->AccelerationRate = 0;
 	this->Player = Player;
 	this->FieldPower = 400;
+	if (this->Player != NULL)this->FieldPower *= this->Player->GetPower();
 
 	this->Init();
 
