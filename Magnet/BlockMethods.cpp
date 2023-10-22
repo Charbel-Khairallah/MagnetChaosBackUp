@@ -250,7 +250,7 @@ void Block::MoveAwayFrom(Block * Other) {
 	double Factor = 0.5;
 	double VelocityShift = this->VelocityLimit * Factor;
 
-	Angle BlocksAngle(this->GetPosition(), Other->GetPosition());
+	Angle BlocksAngle(this->GetCenter(), Other->GetCenter());
 	double VelocityShiftX = VelocityShift * cos(Angle::ToRadian(BlocksAngle.GetActualValue()));
 	double VelocityShiftY = VelocityShift * sin(Angle::ToRadian(BlocksAngle.GetActualValue()));
 
